@@ -1,0 +1,33 @@
+html {
+  font-family: 'Oswald', sans-serif;
+}
+
+.skinny {
+  font-weight: 200;
+}
+
+.skinnier {
+  max-width: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer  {
+  background-color: grey;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: cornflower;
+}
+
+.current {
+  text-decoration: overline;
+}
+
+h1 {
+  color: black;
+}
