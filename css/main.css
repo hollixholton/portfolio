@@ -31,3 +31,32 @@ footer  {
 h1 {
   color: black;
 }
+
+.hover-photo {
+  opacity: 0;
+}
+
+.hover-box:hover .hover-photo {
+  opacity: .4;
+}
+
+.logo {
+  width: 100px;
+}
+
+.masthead {
+  max-height: 11rem;
+  overflow: hidden;
+}
+
+.opacity {
+  opacity: 30%;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    width: 150px;
+  }
+
+}
