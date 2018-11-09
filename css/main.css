@@ -2,6 +2,18 @@ html {
   font-family: 'Oswald', sans-serif;
 }
 
+.card h2 {
+  color: #000;
+  transform: rotate(270deg);
+  transform-origin: top right;
+  top: 0;
+  /* right: calc(100% - 1.625rem); */
+  right: 100%;
+  z-index: 1000;
+  font-weight: 400;
+  width: 200%;
+}
+
 .skinny {
   font-weight: 200;
 }
@@ -16,8 +28,8 @@ a {
 }
 
 footer  {
-  background-color: grey;
-  color: #fff;
+  background-color: #f9f6c3;
+  color: #000;
 }
 
 .bg-light {
@@ -34,10 +46,19 @@ h1 {
 
 .hover-photo {
   opacity: 0;
+  transition: opacity .2s cubic-bezier(.75, 0, .25, 1);
 }
 
-.hover-box:hover .hover-photo {
-  opacity: .4;
+.card:hover .hover-photo {
+  opacity: .7;
+}
+
+.main-photo {
+  transition: filter .2s cubic-bezier(.75, 0, .25, 1);
+}
+
+.grid .card:hover .main-photo {
+  filter: grayscale(100%);
 }
 
 .logo {
@@ -51,6 +72,11 @@ h1 {
 
 .opacity {
   opacity: 30%;
+}
+
+.arrow {
+  max-width: 150px;
+  width: 100%
 }
 
 @media only screen and (min-width: 38em) {
