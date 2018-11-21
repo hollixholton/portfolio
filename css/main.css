@@ -1,5 +1,5 @@
 html {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .card h2 {
@@ -28,7 +28,7 @@ a {
 }
 
 footer  {
-  background-color: #f9f6c3;
+  background-color: #ca707e;
   color: #000;
 }
 
@@ -66,7 +66,7 @@ h1 {
 }
 
 .masthead {
-  max-height: 11rem;
+  max-height: 8rem;
   overflow: hidden;
 }
 
@@ -77,6 +77,23 @@ h1 {
 .arrow {
   max-width: 150px;
   width: 100%
+}
+
+.jonah {
+  padding-left: 2rem;
+  display: block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  @media only screen and (max-width: 500px) {
+
+    .jonah h2 {
+      font-size: .75rem;
+    }
+
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
