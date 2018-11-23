@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 135.3 136.6" style="enable-background:new 0 0 135.3 136.6;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;}
-</style>
-<circle id="linkedin-back" class="st0" cx="67.7" cy="68.3" r="64"/>
-<g id="linkedin-linkedin">
-	<path class="st1" d="M32.8,56h14.9v47.8H32.8V56z M40.2,32.3c4.8,0,8.6,3.9,8.6,8.6c0,4.8-3.9,8.6-8.6,8.6c-4.8,0-8.6-3.9-8.6-8.6
-		C31.6,36.1,35.4,32.3,40.2,32.3"/>
-	<path class="st1" d="M57,56h14.2v6.5h0.2c2-3.8,6.8-7.7,14.1-7.7c15,0,17.8,9.9,17.8,22.8v26.2H88.4V80.6c0-5.5-0.1-12.7-7.7-12.7
-		c-7.7,0-8.9,6-8.9,12.3v23.6H57V56z"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" id="Linkedin" viewBox="0 0 135.3 136.6" width="135.3" height="136.6"><style>.st0{fill:none;stroke:#fff;stroke-miterlimit:10}.st1{fill:#fff}</style><circle id="linkedin-back" cx="67.7" cy="68.3" r="64" class="st0"/><path id="linkedin-linkedin" d="M32.8 56h14.9v47.8H32.8V56zm7.4-23.7c4.8 0 8.6 3.9 8.6 8.6 0 4.8-3.9 8.6-8.6 8.6-4.8 0-8.6-3.9-8.6-8.6 0-4.8 3.8-8.6 8.6-8.6M57 56h14.2v6.5h.2c2-3.8 6.8-7.7 14.1-7.7 15 0 17.8 9.9 17.8 22.8v26.2H88.4V80.6c0-5.5-.1-12.7-7.7-12.7-7.7 0-8.9 6-8.9 12.3v23.6H57V56z" class="st1"/></svg>
