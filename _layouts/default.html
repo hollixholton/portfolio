@@ -8,7 +8,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/ukh5rzt.css">
 </head>
 <body>
 <header class="masthead">
@@ -17,7 +17,7 @@
   <div>
     <nav>
       <ul class="pin-tr gutter-1-4 list-group-inline">
-        <li class="island-1-4"><a href="index.html">WORK</a></li>
+        <li class="island-1-4 current"><a href="index.html">WORK</a></li>
         <li class="island-1-4"><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
@@ -29,21 +29,39 @@
     {{content}}
   </main>
 
-  <footer id="contact" class="push-none">
-    <small class="island block">
+  <footer id="contact" class="push-none footer grid">
+    <small class="unit xs-1 s-1-2 island block">
       <h2 class="push-1-2 skinny">CONTACT</h2>
-      <p class="push-none">PHONE: 6136618397</p>
-      <p>EMAIL: hello@holliholton.ca</p>
+      <p class="push-none"><b>PHONE:</b> 6136618397</p>
+      <p><b>EMAIL:</b> hello@holliholton.ca</p>
+    </small>
 
-        <a href="https://www.instagram.com/holli.design/">
-          <img class="arrow" src="images/instagram.svg" alt="instagram">
-        </a>
+      <ul class="push unit xs-1 s-1-2 list-group-inline right pad-t">
+        <li>
+          <a href="https://www.instagram.com/holli.design/">
+            <div class="grid island">
+              <i class="icon i-64 unit xs-1">
+                <img src="images/instagram.svg" alt="">
+              </i>
+              <span class="icon-label unit xs-1">Instagram</span>
+            </div>
+          </a>
+        </li>
 
-        <a href="https://www.linkedin.com/in/holli-holton">
-          <img class="arrow" src="images/linkedin.svg" alt="linkedin">
-        </a>
+        <li>
+          <a href="https://www.linkedin.com/in/holli-holton">
+            <div class="island grid">
+              <i class="icon i-64 unit xs-1">
+                <img src="images/linkedin.svg" alt="">
+              </i>
+              <span class="icon-label unit xs-1">Linkedin</span>
+            </div>
+          </a>
+        </li>
+      </ul>
 
-      <p class="micro push-0">HOLLI HOLTON 2018 ©</p>
+
+      <p class="gutter unit xs-1 micro push-0">HOLLI HOLTON 2018 ©</p>
     </small>
   </footer>
 </body>
