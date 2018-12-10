@@ -11,57 +11,61 @@
   <link rel="stylesheet" href="https://use.typekit.net/ukh5rzt.css">
 </head>
 <body>
-<header class="masthead">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+<header role="banner" class="masthead">
   <a href="index.html"><img src="images/logo.svg" class="logo island pin-t"></a>
 
   <div>
-    <nav>
-      <ul class="pin-tr gutter-1-4 list-group-inline">
+    <nav role="navigation" id="nav" tabindex="0">
+      <ul class="pin-tr gutter-1-4 list-group-inline pad-t">
         <li class="island-1-4 current"><a href="index.html">WORK</a></li>
         <li class="island-1-4"><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
   </div>
 
-  <img class="img-flex push" src="images/banner.svg" alt="banner image">
+  <img class="img-flex" src="images/banner.svg" alt="banner image">
 </header>
-  <main>
+  <main role="main" id="main" tabindex="0">
     {{content}}
   </main>
 
-  <footer id="contact" class="push-none footer grid">
+  <footer role="contentinfo" id="contact" class="push-none footer grid">
     <small class="unit xs-1 s-1-2 island block">
       <h2 class="push-1-2 skinny">CONTACT</h2>
-      <p class="push-none"><b>PHONE:</b> 6136618397</p>
-      <p><b>EMAIL:</b> hello@holliholton.ca</p>
+      <span class="push-none block"><b>PHONE:</b><a href="tel:+16136618397"> 613-661-8397</a></span>
+      <span class="block"><b>EMAIL:</b><a href="mailto:hello@holliholton.ca"> hello@holliholton.ca</a></span>
     </small>
 
-      <ul class="push unit xs-1 s-1-2 list-group-inline right pad-t">
+      <ul class="push social-icons unit xs-1 s-1-2 list-group-inline text-right pad-t">
         <li>
           <a href="https://www.instagram.com/holli.design/">
-            <div class="grid island">
-              <i class="icon i-64 unit xs-1">
+            <div class="island text-center">
+              <i class="icon i-64">
                 <img src="images/instagram.svg" alt="">
               </i>
-              <span class="icon-label unit xs-1">Instagram</span>
+              <span class="icon-label block">Instagram</span>
             </div>
           </a>
         </li>
 
         <li>
           <a href="https://www.linkedin.com/in/holli-holton">
-            <div class="island grid">
-              <i class="icon i-64 unit xs-1">
+            <div class="island text-center">
+              <i class="icon i-64">
                 <img src="images/linkedin.svg" alt="">
               </i>
-              <span class="icon-label unit xs-1">Linkedin</span>
+              <span class="icon-label block">Linkedin</span>
             </div>
           </a>
         </li>
       </ul>
 
 
-      <p class="gutter unit xs-1 micro push-0">HOLLI HOLTON 2018 ©</p>
+      <p class="gutter unit xs-1 micro">HOLLI HOLTON 2018 ©</p>
     </small>
   </footer>
 </body>

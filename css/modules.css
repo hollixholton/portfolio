@@ -201,6 +201,18 @@ svg.img-flex {
   padding-top: 20%; /* Really wide... */
 }
 
+.embed-custom-449 {
+  padding-top: 197%;
+}
+
+.embed-custom-fbqs {
+  padding-top: 37%;
+}
+
+.embed-custom-emqs {
+  padding-top: 31%;
+}
+
 .embed-item, .embed__item {
   min-height: 100%;
   left: 0;
@@ -1014,10 +1026,10 @@ button,
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #333;
+  background-color: ##fcf0f3;
   border-radius: 4px;
-  border: 3px solid #333;
-  color: #fff;
+  border: 5px solid #ca707e;
+  color: #000;
   font: inherit;
   text-decoration: none;
   text-transform: none;
@@ -1034,9 +1046,9 @@ button:focus,
 button:hover,
 .btn:focus,
 .btn:hover {
-  background-color: #000;
+  background-color: ##ca707e;
   border-color: #000;
-  color: #fff;
+  color: black;
 }
 
 button[disabled] {

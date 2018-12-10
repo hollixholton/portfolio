@@ -8,7 +8,7 @@ html {
 
 h1, h2, h3, h4 {
   font-family: clone-rounded-latin, sans-serif;
-  font-weight: 800;
+  font-weight: bold;
 }
 
 .true-ruler {
@@ -41,18 +41,18 @@ h1, h2, h3, h4 {
   max-width: 20px;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
 footer  {
   background-color: #ca707e;
   color: #000;
 }
 
+footer a  {
+  text-decoration: none;
+  color: white;
+}
+
 .bg-light {
-  background-color: cornflower;
+  background-color: #ca707e;
 }
 
 .current {
@@ -103,8 +103,55 @@ h1 {
   display: block;
 }
 
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
 .bg {
   background-color: #fcf0f3;
+}
+
+.footer .icon {
+  margin-right: 0;
+}
+
+.social-icons a {
+  transition: opacity .25s;
+  display: block;
+}
+
+.footer a:hover {
+  opacity: .7;
+}
+
+nav a {
+  transition: opacity .25s;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  opacity: .7;
+}
+
+p a {
+  color: #ca707e;
+  text-decoration: none;
+}
+
+p a:hover {
+    opacity: .7;
+}
+
+.big-head {
+  max-width: 35em;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 25em) {
