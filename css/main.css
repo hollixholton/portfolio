@@ -42,7 +42,7 @@ h1, h2, h3, h4 {
 }
 
 footer  {
-  background-color: #ca707e;
+  background-color: #d1a1a9;
   color: #000;
 }
 
@@ -150,8 +150,13 @@ p a:hover {
 }
 
 .big-head {
-  max-width: 35em;
+  max-width: 30em;
   margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.bottom-pad {
+  padding-bottom: 7rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -170,6 +175,18 @@ p a:hover {
 
   .logo {
     width: 150px;
+  }
+
+  .four-o-four {
+    padding-top: 0rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .four-o-four {
+    padding-top: 7rem;
   }
 
 }
