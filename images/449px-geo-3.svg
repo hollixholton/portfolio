@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 449 887" width="449" height="887"><style>.st0{fill:#f79235}.st1{fill:#fdb936}.st2{fill:#f5969c}.st3{fill:#f3ee77}.st4{fill:#ca707e}.st5{opacity:.54;fill:#fff;enable-background:new}</style><path d="M0 0l139 443.5L0 696-41 0z" class="st0"/><path d="M449 885.4L0 696v189.4z" class="st1"/><path d="M139 443.5l310 441.9L0 696z" class="st2"/><path d="M139 443.5L281 0H0z" class="st3"/><path d="M449 0L139 443.5 281 0z" class="st0"/><path d="M449 885.4L139 443.5 449 0z" class="st4"/><path d="M-575.5-132.4h1600v497.2h-1600z" class="st5" transform="rotate(-89.77 224.498 116.202)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 449 887" style="enable-background:new 0 0 449 887;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F79235;}
+	.st1{fill:#FDB936;}
+	.st2{fill:#F5969C;}
+	.st3{fill:#F3EE77;}
+	.st4{fill:#CA707E;}
+	.st5{fill:#FF5622;enable-background:new    ;}
+</style>
+<path class="st0" d="M-637-45l139,443.5L-637,651l-41-696H-637z"/>
+<path class="st1" d="M-188,840.4L-637,651v189.4H-188z"/>
+<path class="st2" d="M-498,398.5l310,441.9L-637,651L-498,398.5z"/>
+<path class="st3" d="M-498,398.5L-356-45h-281L-498,398.5z"/>
+<path class="st0" d="M-188-45l-310,443.5L-356-45H-188z"/>
+<path class="st4" d="M-188,840.4l-310-441.9L-188-45V840.4z"/>
+<path class="st5" d="M-27.3,943.1l6.4-1600l497.2,2l-6.4,1600L-27.3,943.1z"/>
+</svg>

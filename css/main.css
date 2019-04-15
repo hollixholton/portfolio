@@ -14,7 +14,12 @@ h1, h2, h3, h4 {
   border-top: 15px;
   border-style: solid;
   border-color: #ff6026;
+}
 
+.black-rule {
+  border-top: 15px;
+  border-style: solid;
+  border-color: #000;
 }
 
 .footer {
@@ -55,7 +60,8 @@ footer a  {
 }
 
 h1 {
-  color: #ff6026;
+  color: #000;
+  font-weight: bold;
 }
 
 .hover-photo {
@@ -76,7 +82,7 @@ h1 {
 }
 
 .logo {
-  width: 200px;
+  width: 250px;
 }
 
 .masthead {
@@ -169,7 +175,7 @@ p a:hover {
 @media only screen and (min-width: 38em) {
 
   .logo {
-    width: 200px;
+    width: 250px;
   }
 
   .four-o-four {
