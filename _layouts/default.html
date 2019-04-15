@@ -8,7 +8,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.typekit.net/ukh5rzt.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <link rel="icon" href="/favicon.ico">
 </head>
 <body>
@@ -16,8 +16,8 @@
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
-<header role="banner" class="masthead">
-  <a href="index.html"><img src="images/logo.svg" class="logo island pin-t"></a>
+<header role="banner" class="masthead relative">
+  <a href="index.html"><img src="images/logo.svg" class="logo pin-c"></a>
 
   <div>
     <nav role="navigation" id="nav" tabindex="0">
@@ -33,6 +33,8 @@
   <main role="main" id="main" tabindex="0">
     {{content}}
   </main>
+
+  <hr class="true-ruler push-none">
 
   <footer role="contentinfo" id="contact" class="push-none footer grid">
     <small class="unit xs-1 s-1-2 island block">

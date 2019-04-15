@@ -1,5 +1,5 @@
 html {
-  font-family: clone-rounded-latin, sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .current {
@@ -7,14 +7,13 @@ html {
 }
 
 h1, h2, h3, h4 {
-  font-family: clone-rounded-latin, sans-serif;
   font-weight: bold;
 }
 
 .true-ruler {
   border-top: 15px;
   border-style: solid;
-  border-color: #fcf0f3;
+  border-color: #ff6026;
 
 }
 
@@ -42,8 +41,8 @@ h1, h2, h3, h4 {
 }
 
 footer  {
-  background-color: #d1a1a9;
-  color: #000;
+  background-color: #000;
+  color: #fff;
 }
 
 footer a  {
@@ -51,16 +50,12 @@ footer a  {
   color: white;
 }
 
-.bg-light {
-  background-color: #ca707e;
-}
-
 .current {
   text-decoration: overline;
 }
 
 h1 {
-  color: black;
+  color: #ff6026;
 }
 
 .hover-photo {
@@ -81,11 +76,11 @@ h1 {
 }
 
 .logo {
-  width: 100px;
+  width: 200px;
 }
 
 .masthead {
-  max-height: 8rem;
+  max-height: 12rem;
   overflow: hidden;
 }
 
@@ -113,7 +108,7 @@ h1 {
 }
 
 .bg {
-  background-color: #fcf0f3;
+  background-color: #fff;
 }
 
 .footer .icon {
@@ -141,7 +136,7 @@ nav a:hover {
 }
 
 p a {
-  color: #ca707e;
+  color: #ff6026;
   text-decoration: none;
 }
 
@@ -174,7 +169,7 @@ p a:hover {
 @media only screen and (min-width: 38em) {
 
   .logo {
-    width: 150px;
+    width: 200px;
   }
 
   .four-o-four {
