@@ -82,7 +82,7 @@ h1 {
 }
 
 .logo {
-  width: 250px;
+  width: 135px;
 }
 
 .masthead {
@@ -141,6 +141,10 @@ nav a:hover {
   opacity: .7;
 }
 
+nav {
+  display: none;
+}
+
 p a {
   color: #ff6026;
   text-decoration: none;
@@ -168,6 +172,10 @@ p a:hover {
       font-size: .75rem;
     }
 
+  }
+
+  nav {
+    display: block;
   }
 
 }
